@@ -1,5 +1,5 @@
 ﻿#Get subdirectory sizes and display them in MB in order of size descending 
-$directoryToQuery = "C:\users\codas\Dropbox";
+$directoryToQuery = "";
 
 Get-ChildItem $directoryToQuery -Recurse -Directory | ForEach-Object{
     [pscustomobject]@{
